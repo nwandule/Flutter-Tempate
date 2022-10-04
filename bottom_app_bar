@@ -1,0 +1,10 @@
+import 'package:flutter/material.dart';
+Widget bottom_bar( context) {
+  return BottomAppBar(
+      color: const Color.fromRGBO(46, 61, 54, 1),
+  shape: const CircularNotchedRectangle(),
+  child: Container(
+  height: 60.0,
+  ),
+  );
+}
